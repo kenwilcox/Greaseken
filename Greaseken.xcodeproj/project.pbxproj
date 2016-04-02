@@ -47,6 +47,8 @@
 		BE2FD3E31CAF7D6000C031F2 /* GreasekenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreasekenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2FD3E71CAF7D6000C031F2 /* GreasekenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreasekenUITests.swift; sourceTree = "<group>"; };
 		BE2FD3E91CAF7D6000C031F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB26B7D1CAF7EFA006F1807 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		BEB26B7E1CAF7EFA006F1807 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,8 @@
 		BE2FD3BB1CAF7D5F00C031F2 = {
 			isa = PBXGroup;
 			children = (
+				BEB26B7D1CAF7EFA006F1807 /* LICENSE.md */,
+				BEB26B7E1CAF7EFA006F1807 /* README.md */,
 				BE2FD3C61CAF7D5F00C031F2 /* Greaseken */,
 				BE2FD3DB1CAF7D6000C031F2 /* GreasekenTests */,
 				BE2FD3E61CAF7D6000C031F2 /* GreasekenUITests */,
@@ -485,6 +489,7 @@
 				BE2FD3EE1CAF7D6000C031F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE2FD3EF1CAF7D6000C031F2 /* Build configuration list for PBXNativeTarget "GreasekenTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				BE2FD3F11CAF7D6000C031F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE2FD3F21CAF7D6000C031F2 /* Build configuration list for PBXNativeTarget "GreasekenUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				BE2FD3F41CAF7D6000C031F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
