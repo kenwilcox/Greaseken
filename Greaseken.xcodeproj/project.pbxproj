@@ -14,6 +14,10 @@
 		BE2FD3D21CAF7D5F00C031F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2FD3D01CAF7D5F00C031F2 /* LaunchScreen.storyboard */; };
 		BE2FD3DD1CAF7D6000C031F2 /* GreasekenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FD3DC1CAF7D6000C031F2 /* GreasekenTests.swift */; };
 		BE2FD3E81CAF7D6000C031F2 /* GreasekenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FD3E71CAF7D6000C031F2 /* GreasekenUITests.swift */; };
+		BEB26B881CB005E0006F1807 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB26B871CB005E0006F1807 /* ActionViewController.swift */; };
+		BEB26B8B1CB005E0006F1807 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB26B891CB005E0006F1807 /* MainInterface.storyboard */; };
+		BEB26B901CB005E0006F1807 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BEB26B851CB005E0006F1807 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BEB26B951CB00A4B006F1807 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = BEB26B941CB00A4B006F1807 /* Action.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +35,28 @@
 			remoteGlobalIDString = BE2FD3C31CAF7D5F00C031F2;
 			remoteInfo = Greaseken;
 		};
+		BEB26B8D1CB005E0006F1807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2FD3BC1CAF7D5F00C031F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB26B841CB005E0006F1807;
+			remoteInfo = Extension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEB26B8F1CB005E0006F1807 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BEB26B901CB005E0006F1807 /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BE2FD3C41CAF7D5F00C031F2 /* Greaseken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greaseken.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +74,11 @@
 		BE2FD3E91CAF7D6000C031F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEB26B7D1CAF7EFA006F1807 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		BEB26B7E1CAF7EFA006F1807 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BEB26B851CB005E0006F1807 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB26B871CB005E0006F1807 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		BEB26B8A1CB005E0006F1807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BEB26B8C1CB005E0006F1807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB26B941CB00A4B006F1807 /* Action.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +103,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEB26B821CB005E0006F1807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +121,7 @@
 				BE2FD3C61CAF7D5F00C031F2 /* Greaseken */,
 				BE2FD3DB1CAF7D6000C031F2 /* GreasekenTests */,
 				BE2FD3E61CAF7D6000C031F2 /* GreasekenUITests */,
+				BEB26B861CB005E0006F1807 /* Extension */,
 				BE2FD3C51CAF7D5F00C031F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +132,7 @@
 				BE2FD3C41CAF7D5F00C031F2 /* Greaseken.app */,
 				BE2FD3D81CAF7D6000C031F2 /* GreasekenTests.xctest */,
 				BE2FD3E31CAF7D6000C031F2 /* GreasekenUITests.xctest */,
+				BEB26B851CB005E0006F1807 /* Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +168,17 @@
 			path = GreasekenUITests;
 			sourceTree = "<group>";
 		};
+		BEB26B861CB005E0006F1807 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BEB26B871CB005E0006F1807 /* ActionViewController.swift */,
+				BEB26B891CB005E0006F1807 /* MainInterface.storyboard */,
+				BEB26B8C1CB005E0006F1807 /* Info.plist */,
+				BEB26B941CB00A4B006F1807 /* Action.js */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,10 +189,12 @@
 				BE2FD3C01CAF7D5F00C031F2 /* Sources */,
 				BE2FD3C11CAF7D5F00C031F2 /* Frameworks */,
 				BE2FD3C21CAF7D5F00C031F2 /* Resources */,
+				BEB26B8F1CB005E0006F1807 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BEB26B8E1CB005E0006F1807 /* PBXTargetDependency */,
 			);
 			name = Greaseken;
 			productName = Greaseken;
@@ -185,6 +237,23 @@
 			productReference = BE2FD3E31CAF7D6000C031F2 /* GreasekenUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BEB26B841CB005E0006F1807 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB26B911CB005E0006F1807 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				BEB26B811CB005E0006F1807 /* Sources */,
+				BEB26B821CB005E0006F1807 /* Frameworks */,
+				BEB26B831CB005E0006F1807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = BEB26B851CB005E0006F1807 /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,6 +278,10 @@
 						DevelopmentTeam = 2367R6DXA6;
 						TestTargetID = BE2FD3C31CAF7D5F00C031F2;
 					};
+					BEB26B841CB005E0006F1807 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2367R6DXA6;
+					};
 				};
 			};
 			buildConfigurationList = BE2FD3BF1CAF7D5F00C031F2 /* Build configuration list for PBXProject "Greaseken" */;
@@ -227,6 +300,7 @@
 				BE2FD3C31CAF7D5F00C031F2 /* Greaseken */,
 				BE2FD3D71CAF7D6000C031F2 /* GreasekenTests */,
 				BE2FD3E21CAF7D6000C031F2 /* GreasekenUITests */,
+				BEB26B841CB005E0006F1807 /* Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -253,6 +327,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB26B831CB005E0006F1807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB26B951CB00A4B006F1807 /* Action.js in Resources */,
+				BEB26B8B1CB005E0006F1807 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +367,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEB26B811CB005E0006F1807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB26B881CB005E0006F1807 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -296,6 +387,11 @@
 			isa = PBXTargetDependency;
 			target = BE2FD3C31CAF7D5F00C031F2 /* Greaseken */;
 			targetProxy = BE2FD3E41CAF7D6000C031F2 /* PBXContainerItemProxy */;
+		};
+		BEB26B8E1CB005E0006F1807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEB26B841CB005E0006F1807 /* Extension */;
+			targetProxy = BEB26B8D1CB005E0006F1807 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -314,6 +410,14 @@
 				BE2FD3D11CAF7D5F00C031F2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BEB26B891CB005E0006F1807 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB26B8A1CB005E0006F1807 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -406,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Greaseken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.k3nx.Greaseken;
@@ -417,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Greaseken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.k3nx.Greaseken;
@@ -470,6 +576,28 @@
 			};
 			name = Release;
 		};
+		BEB26B921CB005E0006F1807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.k3nx.Greaseken.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BEB26B931CB005E0006F1807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.k3nx.Greaseken.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -508,6 +636,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		BEB26B911CB005E0006F1807 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB26B921CB005E0006F1807 /* Debug */,
+				BEB26B931CB005E0006F1807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
