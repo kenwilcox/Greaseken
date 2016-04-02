@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2FD3C81CAF7D5F00C031F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FD3C71CAF7D5F00C031F2 /* AppDelegate.swift */; };
+		BE2FD3CA1CAF7D5F00C031F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FD3C91CAF7D5F00C031F2 /* ViewController.swift */; };
+		BE2FD3CD1CAF7D5F00C031F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2FD3CB1CAF7D5F00C031F2 /* Main.storyboard */; };
+		BE2FD3CF1CAF7D5F00C031F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2FD3CE1CAF7D5F00C031F2 /* Assets.xcassets */; };
+		BE2FD3D21CAF7D5F00C031F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2FD3D01CAF7D5F00C031F2 /* LaunchScreen.storyboard */; };
+		BE2FD3DD1CAF7D6000C031F2 /* GreasekenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FD3DC1CAF7D6000C031F2 /* GreasekenTests.swift */; };
+		BE2FD3E81CAF7D6000C031F2 /* GreasekenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FD3E71CAF7D6000C031F2 /* GreasekenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE2FD3D91CAF7D6000C031F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2FD3BC1CAF7D5F00C031F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2FD3C31CAF7D5F00C031F2;
+			remoteInfo = Greaseken;
+		};
+		BE2FD3E41CAF7D6000C031F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2FD3BC1CAF7D5F00C031F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2FD3C31CAF7D5F00C031F2;
+			remoteInfo = Greaseken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE2FD3C41CAF7D5F00C031F2 /* Greaseken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greaseken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2FD3C71CAF7D5F00C031F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE2FD3C91CAF7D5F00C031F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE2FD3CC1CAF7D5F00C031F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE2FD3CE1CAF7D5F00C031F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE2FD3D11CAF7D5F00C031F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE2FD3D31CAF7D5F00C031F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2FD3D81CAF7D6000C031F2 /* GreasekenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreasekenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2FD3DC1CAF7D6000C031F2 /* GreasekenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreasekenTests.swift; sourceTree = "<group>"; };
+		BE2FD3DE1CAF7D6000C031F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2FD3E31CAF7D6000C031F2 /* GreasekenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreasekenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2FD3E71CAF7D6000C031F2 /* GreasekenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreasekenUITests.swift; sourceTree = "<group>"; };
+		BE2FD3E91CAF7D6000C031F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE2FD3C11CAF7D5F00C031F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2FD3D51CAF7D6000C031F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2FD3E01CAF7D6000C031F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE2FD3BB1CAF7D5F00C031F2 = {
+			isa = PBXGroup;
+			children = (
+				BE2FD3C61CAF7D5F00C031F2 /* Greaseken */,
+				BE2FD3DB1CAF7D6000C031F2 /* GreasekenTests */,
+				BE2FD3E61CAF7D6000C031F2 /* GreasekenUITests */,
+				BE2FD3C51CAF7D5F00C031F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE2FD3C51CAF7D5F00C031F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2FD3C41CAF7D5F00C031F2 /* Greaseken.app */,
+				BE2FD3D81CAF7D6000C031F2 /* GreasekenTests.xctest */,
+				BE2FD3E31CAF7D6000C031F2 /* GreasekenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2FD3C61CAF7D5F00C031F2 /* Greaseken */ = {
+			isa = PBXGroup;
+			children = (
+				BE2FD3C71CAF7D5F00C031F2 /* AppDelegate.swift */,
+				BE2FD3C91CAF7D5F00C031F2 /* ViewController.swift */,
+				BE2FD3CB1CAF7D5F00C031F2 /* Main.storyboard */,
+				BE2FD3CE1CAF7D5F00C031F2 /* Assets.xcassets */,
+				BE2FD3D01CAF7D5F00C031F2 /* LaunchScreen.storyboard */,
+				BE2FD3D31CAF7D5F00C031F2 /* Info.plist */,
+			);
+			path = Greaseken;
+			sourceTree = "<group>";
+		};
+		BE2FD3DB1CAF7D6000C031F2 /* GreasekenTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE2FD3DC1CAF7D6000C031F2 /* GreasekenTests.swift */,
+				BE2FD3DE1CAF7D6000C031F2 /* Info.plist */,
+			);
+			path = GreasekenTests;
+			sourceTree = "<group>";
+		};
+		BE2FD3E61CAF7D6000C031F2 /* GreasekenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE2FD3E71CAF7D6000C031F2 /* GreasekenUITests.swift */,
+				BE2FD3E91CAF7D6000C031F2 /* Info.plist */,
+			);
+			path = GreasekenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE2FD3C31CAF7D5F00C031F2 /* Greaseken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2FD3EC1CAF7D6000C031F2 /* Build configuration list for PBXNativeTarget "Greaseken" */;
+			buildPhases = (
+				BE2FD3C01CAF7D5F00C031F2 /* Sources */,
+				BE2FD3C11CAF7D5F00C031F2 /* Frameworks */,
+				BE2FD3C21CAF7D5F00C031F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Greaseken;
+			productName = Greaseken;
+			productReference = BE2FD3C41CAF7D5F00C031F2 /* Greaseken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE2FD3D71CAF7D6000C031F2 /* GreasekenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2FD3EF1CAF7D6000C031F2 /* Build configuration list for PBXNativeTarget "GreasekenTests" */;
+			buildPhases = (
+				BE2FD3D41CAF7D6000C031F2 /* Sources */,
+				BE2FD3D51CAF7D6000C031F2 /* Frameworks */,
+				BE2FD3D61CAF7D6000C031F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2FD3DA1CAF7D6000C031F2 /* PBXTargetDependency */,
+			);
+			name = GreasekenTests;
+			productName = GreasekenTests;
+			productReference = BE2FD3D81CAF7D6000C031F2 /* GreasekenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE2FD3E21CAF7D6000C031F2 /* GreasekenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2FD3F21CAF7D6000C031F2 /* Build configuration list for PBXNativeTarget "GreasekenUITests" */;
+			buildPhases = (
+				BE2FD3DF1CAF7D6000C031F2 /* Sources */,
+				BE2FD3E01CAF7D6000C031F2 /* Frameworks */,
+				BE2FD3E11CAF7D6000C031F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2FD3E51CAF7D6000C031F2 /* PBXTargetDependency */,
+			);
+			name = GreasekenUITests;
+			productName = GreasekenUITests;
+			productReference = BE2FD3E31CAF7D6000C031F2 /* GreasekenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE2FD3BC1CAF7D5F00C031F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kenneth Wilcox";
+				TargetAttributes = {
+					BE2FD3C31CAF7D5F00C031F2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2367R6DXA6;
+					};
+					BE2FD3D71CAF7D6000C031F2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2367R6DXA6;
+						TestTargetID = BE2FD3C31CAF7D5F00C031F2;
+					};
+					BE2FD3E21CAF7D6000C031F2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2367R6DXA6;
+						TestTargetID = BE2FD3C31CAF7D5F00C031F2;
+					};
+				};
+			};
+			buildConfigurationList = BE2FD3BF1CAF7D5F00C031F2 /* Build configuration list for PBXProject "Greaseken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE2FD3BB1CAF7D5F00C031F2;
+			productRefGroup = BE2FD3C51CAF7D5F00C031F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE2FD3C31CAF7D5F00C031F2 /* Greaseken */,
+				BE2FD3D71CAF7D6000C031F2 /* GreasekenTests */,
+				BE2FD3E21CAF7D6000C031F2 /* GreasekenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE2FD3C21CAF7D5F00C031F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2FD3D21CAF7D5F00C031F2 /* LaunchScreen.storyboard in Resources */,
+				BE2FD3CF1CAF7D5F00C031F2 /* Assets.xcassets in Resources */,
+				BE2FD3CD1CAF7D5F00C031F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2FD3D61CAF7D6000C031F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2FD3E11CAF7D6000C031F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE2FD3C01CAF7D5F00C031F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2FD3CA1CAF7D5F00C031F2 /* ViewController.swift in Sources */,
+				BE2FD3C81CAF7D5F00C031F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2FD3D41CAF7D6000C031F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2FD3DD1CAF7D6000C031F2 /* GreasekenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2FD3DF1CAF7D6000C031F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2FD3E81CAF7D6000C031F2 /* GreasekenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE2FD3DA1CAF7D6000C031F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2FD3C31CAF7D5F00C031F2 /* Greaseken */;
+			targetProxy = BE2FD3D91CAF7D6000C031F2 /* PBXContainerItemProxy */;
+		};
+		BE2FD3E51CAF7D6000C031F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2FD3C31CAF7D5F00C031F2 /* Greaseken */;
+			targetProxy = BE2FD3E41CAF7D6000C031F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE2FD3CB1CAF7D5F00C031F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2FD3CC1CAF7D5F00C031F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE2FD3D01CAF7D5F00C031F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2FD3D11CAF7D5F00C031F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE2FD3EA1CAF7D6000C031F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE2FD3EB1CAF7D6000C031F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE2FD3ED1CAF7D6000C031F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Greaseken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.k3nx.Greaseken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE2FD3EE1CAF7D6000C031F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Greaseken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.k3nx.Greaseken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE2FD3F01CAF7D6000C031F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GreasekenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.k3nx.GreasekenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Greaseken.app/Greaseken";
+			};
+			name = Debug;
+		};
+		BE2FD3F11CAF7D6000C031F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GreasekenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.k3nx.GreasekenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Greaseken.app/Greaseken";
+			};
+			name = Release;
+		};
+		BE2FD3F31CAF7D6000C031F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GreasekenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.k3nx.GreasekenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Greaseken;
+			};
+			name = Debug;
+		};
+		BE2FD3F41CAF7D6000C031F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GreasekenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.k3nx.GreasekenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Greaseken;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE2FD3BF1CAF7D5F00C031F2 /* Build configuration list for PBXProject "Greaseken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2FD3EA1CAF7D6000C031F2 /* Debug */,
+				BE2FD3EB1CAF7D6000C031F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2FD3EC1CAF7D6000C031F2 /* Build configuration list for PBXNativeTarget "Greaseken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2FD3ED1CAF7D6000C031F2 /* Debug */,
+				BE2FD3EE1CAF7D6000C031F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE2FD3EF1CAF7D6000C031F2 /* Build configuration list for PBXNativeTarget "GreasekenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2FD3F01CAF7D6000C031F2 /* Debug */,
+				BE2FD3F11CAF7D6000C031F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE2FD3F21CAF7D6000C031F2 /* Build configuration list for PBXNativeTarget "GreasekenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2FD3F31CAF7D6000C031F2 /* Debug */,
+				BE2FD3F41CAF7D6000C031F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE2FD3BC1CAF7D5F00C031F2 /* Project object */;
+}
