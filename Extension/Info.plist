@@ -29,9 +29,10 @@
 			<key>NSExtensionJavaScriptPreprocessingFile</key>
 			<string>Action</string>
 			<key>NSExtensionActivationRule</key>
-			<dict/>
-			<key>NSExtensionActivationSupportsWebPageWithMaxCount</key>
-			<string>1</string>
+			<dict>
+				<key>NSExtensionActivationSupportsWebPageWithMaxCount</key>
+				<string>1</string>
+			</dict>
 		</dict>
 		<key>NSExtensionMainStoryboard</key>
 		<string>MainInterface</string>
