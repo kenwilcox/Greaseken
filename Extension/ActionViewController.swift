@@ -19,7 +19,9 @@ class ActionViewController: UIViewController {
         if let inputItem = extensionContext!.inputItems.first as? NSExtensionItem {
             if let itemProvider = inputItem.attachments?.first as? NSItemProvider {
                 itemProvider.loadItemForTypeIdentifier(kUTTypePropertyList as String, options: nil) { [unowned self] (dict, error) in
-                    // do stuff!
+                    let itemDictionary = dict as! NSDictionary
+                    let javaScriptValues = itemDictionary[NSExtensionJavaScriptPreprocessingResultsKey] as! NSDictionary
+                    print(javaScriptValues)
                 }
             }
         }
