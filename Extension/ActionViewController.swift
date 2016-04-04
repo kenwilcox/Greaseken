@@ -21,9 +21,9 @@ class ActionViewController: UIViewController {
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Done, target: self, action: #selector(ActionViewController.done))
         
-        let notificationCenter = NSNotificationCenter.defaultCenter()
-        notificationCenter.addObserver(self, selector: #selector(ActionViewController.adjustForKeyboard(_:)), name: UIKeyboardWillHideNotification, object: nil)
-        notificationCenter.addObserver(self, selector: #selector(ActionViewController.adjustForKeyboard(_:)), name: UIKeyboardWillChangeFrameNotification, object: nil)
+        //let notificationCenter = NSNotificationCenter.defaultCenter()
+        //notificationCenter.addObserver(self, selector: #selector(ActionViewController.adjustForKeyboard(_:)), name: UIKeyboardWillHideNotification, object: nil)
+        //notificationCenter.addObserver(self, selector: #selector(ActionViewController.adjustForKeyboard(_:)), name: UIKeyboardWillChangeFrameNotification, object: nil)
         
         if let inputItem = extensionContext!.inputItems.first as? NSExtensionItem {
             if let itemProvider = inputItem.attachments?.first as? NSItemProvider {
@@ -72,8 +72,8 @@ class ActionViewController: UIViewController {
         
         if notification.name == UIKeyboardWillHideNotification {
             script.contentInset = UIEdgeInsetsZero
-        //} else {
-        //    script.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: keyboardViewEndFrame.height, right: 0)
+        } else {
+            script.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: keyboardViewEndFrame.height, right: 0)
         }
         
         script.scrollIndicatorInsets = script.contentInset
